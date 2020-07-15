@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Njeri Ngigi",
   "license": "MIT",
+  "repository": "git@github.com:njeri-ngigi/hello-graphql.git",
   "scripts": {
     "start:dev": "DEBUG=log nodemon --exec babel-node src/index.js"
   },
@@ -13,6 +14,7 @@
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.6",
     "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
     "graphql": "^15.0.0",
     "nodemon": "^2.0.4"
   }
